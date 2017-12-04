@@ -1,6 +1,10 @@
 {
   "name": "paytrail",
   "version": "1.0.0",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/mvakula/paytrail"
+  },
   "description": "Paytrail REST API for Node.js",
   "main": "index.js",
   "scripts": {
