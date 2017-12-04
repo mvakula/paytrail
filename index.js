@@ -55,5 +55,6 @@ function confirmPayment (
 
 module.exports = {
   createPayment,
-  confirmPayment
+  confirmPayment,
+  validateData
 }

@@ -11,7 +11,7 @@ const auth = {
 
 test('Validate data', t => {
   try {
-    validate.validateData(paymentInfo)
+    paytrail.validateData(paymentInfo)
     t.pass('No errors in data validation')
     t.end()
   } catch (err) {
