@@ -1,0 +1,28 @@
+{
+  "name": "paytrail",
+  "version": "1.0.0",
+  "description": "Process payments through Paytrail payment service JSON interface",
+  "main": "index.js",
+  "scripts": {
+    "watch:test": "watch 'npm test'",
+    "test": "tape tests/test.js "
+  },
+  "keywords": [
+    "Paytrail",
+    "Payment",
+    "Suomen verkkomaksut",
+    "Nets"
+  ],
+  "author": "Mika Vakula",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.17.1",
+    "bluebird": "3.5.1",
+    "ramda": "0.25.0"
+  },
+  "devDependencies": {
+    "express": "4.16.2",
+    "tape": "4.8.0",
+    "watch": "1.0.2"
+  }
+}
