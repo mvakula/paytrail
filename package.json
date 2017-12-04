@@ -1,7 +1,7 @@
 {
   "name": "paytrail",
   "version": "1.0.0",
-  "description": "Process payments through Paytrail payment service JSON interface",
+  "description": "Paytrail REST API for Node.js",
   "main": "index.js",
   "scripts": {
     "watch:test": "watch 'npm test'",
